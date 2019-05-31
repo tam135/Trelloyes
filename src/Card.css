@@ -8,23 +8,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* APP STYLES */
-.App {
-  min-height: calc(100vh - 16px);
-  min-width: calc(100vw - 16px);
-  background: #0079bf;
+.Card {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 0 rgba(9,45,66,.25);
   padding: 8px;
-  display: inline-flex;
-  flex-direction: column;
+  color: #17394d;
 }
 
-.App-header h1 {
+.Card {
+  margin-bottom: 10px;
+}
+
+.Card h3 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.Card p {
   margin: 0;
-  color: #f6f6f6;
-  font-size: 20px;
-  padding: 0 14px 10px;
+  font-size: 12px;
 }
 
-.App-list {
-  display: flex;
+.Card button {
+  float: right;
+  background-color: #eff1f3;
+  border-radius: 6px;
 }
